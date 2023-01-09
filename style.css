@@ -1,3 +1,24 @@
+:root {
+	--bc-cornsilk: #FFF5D6;
+	--bc-silver: #CCC5B9;
+	--bc-lbrown: #403D39;
+	--bc-dbrown: #252422;
+	--bc-lgreen: #0C4B33;
+	--bc-dbrown: #092E20;
+}
 body {
-    background-color: #fff5d6;
+	background-color: var(--bc-cornsilk);
+}
+nav {
+	background-color: var(--bc-lbrown);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+nav.side {
+	height: 100%;
+	width: 200px;
+}
+nav.top {
+	width: 100%;
 }
